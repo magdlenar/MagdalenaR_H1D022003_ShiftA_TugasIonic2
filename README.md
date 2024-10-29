@@ -9,7 +9,7 @@ Cara kerja login pada aplikasi yang sudah dipelajari ini melibatkan beberapa tah
 Dibuat database coba-ionic dan tabel user dengan kolom username dan password.
 Data user diisi secara manual dengan hash password menggunakan fungsi MD5 untuk keamanan.
 2. Menyediakan API Backend (PHP):
-Dibuat dua file PHP, yaitu #koneksi.php untuk menyambungkan dengan database, dan ##login.php untuk memproses login.
+Dibuat dua file PHP, yaitu koneksi.php untuk menyambungkan dengan database, dan login.php untuk memproses login.
 login.php membaca data username dan password dari input JSON, lalu mencocokkannya dengan data di database.
 Jika cocok, PHP akan mengembalikan status login "berhasil" beserta token sederhana berupa timestamp. Jika tidak, akan mengembalikan status "gagal".
 3. Membuat Aplikasi Ionic untuk Frontend Login:
